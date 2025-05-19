@@ -1,3 +1,3 @@
-# Infraestructura CPD
+# Multimedia
 
 Aquest apartat descriu la implantació dels serveis d'àudio i video
