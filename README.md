@@ -1,11 +1,12 @@
 # pro-asixc1d-G6
 Projecte Transversal ASIXc 2024-2025
+
 Bienvenido al manual de Documentación del Grupo 5
 ---
 ## Indice
 1. [Proposta CPD](#ejercicio-1)
-2. [Organizar y procesar datos](#ejercicio-2)
-3. [Reflexión](#ejercicio-3)
+2. [Implantación de los servicios de Audio y Video](#ejercicio-2)
+3. [Diseño e implementación de una Base de Datos](#ejercicio-3)
 
 ---
 <!-- Ejercicio 1 -->
