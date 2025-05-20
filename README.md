@@ -1,4 +1,4 @@
-# pro-asixc1d-G6
+# pro-asixc1d-G5
 Projecte Transversal ASIXc 2024-2025
 
 Bienvenido al manual de Documentación del Grupo 5
