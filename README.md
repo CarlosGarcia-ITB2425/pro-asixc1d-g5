@@ -12,7 +12,7 @@ Bienvenido al manual de Documentación del Grupo 5
 <!-- Ejercicio 1 -->
 # Ejercicio 1
 ## Propuesta de CPD
- - Primeramente hemos organizado diferentes propuestas para montar nuestro CPD y que cumpla con los requisitos que se piden en el projecto.
+ - Primeramente hemos organizado las posibles propuestas para montar nuestro CPD para que cumpla con los requisitos que se piden en el projecto.
 
 
 ---
@@ -35,6 +35,8 @@ Bienvenido al manual de Documentación del Grupo 5
 # Ejercicio 3
 ## Diseño e implementación de una Base de Datos
 
-En esta parte del proyecto tenemos que idear y crear una base de datos para la gestión de los clientes cumpliendo los requisitos que se indican.
+En esta parte del proyecto hemos tenido que idear y crear una base de datos para la gestión de los clientes cumpliendo los requisitos que se indican.
 
-Primeramente, hemos hecho el diseño Entidad-Relación con los datos que se indican: (Empleados, Niveles de Grupo y Departamentos).
+Primeramente, hemos hecho el diseño Entidad-Relación con los datos que se muestran: (Empleados, Niveles de Grupo y Departamentos), indicando en cada uno de ellos su clave primaria, los diferentes atributos que tienen y relacionando las entidades entre sí.
+
+Seguidamente, hemos realizado la transformación relacional del diseño Entidad-Relación anterior primer paso antes de empezar la implementació de los datos reales dentro del gestor de bases de datos.
