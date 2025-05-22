@@ -36,18 +36,35 @@ Bienvenido al manual de Documentación del Grupo 5
 # Ejercicio 3
 ## Diseño e implementación de una Base de Datos
 
-En esta parte del proyecto hemos tenido que idear y crear una base de datos para la gestión de los clientes cumpliendo los requisitos que se indican.
+En esta parte del proyecto hemos diseñado y creado una base de datos orientada a la gestión de clientes, cumpliendo con los requisitos establecidos.
 
-Primeramente, hemos hecho el diseño Entidad-Relación con los datos que se muestran: (Empleados, Niveles de Grupo y Departamentos), indicando en cada uno de ellos su *clave primaria*, los diferentes atributos que tienen y relacionando las entidades entre sí.
+### 1. Modelo Entidad-Relación
 
-![Entidad-Relación](bd/Entidad-Relación.png) 
+Como punto de partida, elaboramos el **modelo Entidad-Relación** a partir de las entidades:
 
+- Empleados  
+- Niveles de Grupo  
+- Departamentos  
 
-Seguidamente, hemos realizado la transformación relacional del diseño Entidad-Relación anterior como primer paso antes de empezar la implementación de los datos reales dentro del gestor de bases de datos.
+En cada entidad definimos su *clave primaria*, los *atributos* necesarios y las *relaciones* correspondientes entre ellas.
 
-Una vez ya teniendo los datos de los convenios correspondientes y ya hecha la transformación relacional del diseño previo, ya podíamos comenzar con la implementación al gestor de bases de datos. (MySQL)
+![Entidad-Relación](bd/Entidad-Relación.png)
 
-Hemos creado las tablas de cada una de las Entidades, añadiendo los atributos necesarios con un límite de caracteres e indicando si son la clave primaria, clave foránea, números decimales, números enteros...
+### 2. Transformación a modelo relacional
+
+A continuación, realizamos la **transformación del modelo Entidad-Relación al modelo relacional**, como paso previo a su implementación en un sistema gestor de bases de datos. Esta transformación permitió definir las tablas, claves primarias y foráneas, así como los tipos de datos apropiados.
+
+### 3. Implementación en MySQL
+
+Con la estructura definida y los datos necesarios disponibles (por ejemplo, los convenios correspondientes), procedimos a la **implementación en el gestor de bases de datos MySQL**.
+
+Para ello hemos:
+
+- Creado las tablas correspondientes a cada entidad.  
+- Definido los atributos con sus tipos de datos y restricciones (longitud, enteros, decimales, etc.).  
+- Establecido las claves primarias y foráneas para garantizar la integridad referencial.  
+
+Este proceso dejó la base de datos lista para su uso con datos reales en un entorno de pruebas o producción.
 
 
 
