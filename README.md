@@ -64,8 +64,6 @@ Para ello hemos:
 - Definido los atributos con sus tipos de datos y restricciones (longitud, enteros, decimales, etc.).  
 - Establecido las claves primarias y foráneas para garantizar la integridad referencial.  
 
-Este proceso dejó la base de datos lista para su uso con datos reales en un entorno de pruebas o producción.
-
 
 
 ---
