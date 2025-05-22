@@ -7,6 +7,7 @@ Bienvenido al manual de Documentación del Grupo 5
 1. [Proposta CPD](#ejercicio-1)
 2. [Implantación de los servicios de Audio y Video](#ejercicio-2)
 3. [Diseño e implementación de una Base de Datos](#ejercicio-3)
+4. [Sostenibilidad](#ejercicio-4)
 
 ---
 <!-- Ejercicio 1 -->
@@ -40,3 +41,10 @@ En esta parte del proyecto hemos tenido que idear y crear una base de datos para
 Primeramente, hemos hecho el diseño Entidad-Relación con los datos que se muestran: (Empleados, Niveles de Grupo y Departamentos), indicando en cada uno de ellos su clave primaria, los diferentes atributos que tienen y relacionando las entidades entre sí.
 
 Seguidamente, hemos realizado la transformación relacional del diseño Entidad-Relación anterior como primer paso antes de empezar la implementació de los datos reales dentro del gestor de bases de datos.
+
+
+---
+<!-- Ejercicio 4 -->
+# Ejercicio 4
+## Sostenibilidad
+ - .
