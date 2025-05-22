@@ -13,7 +13,63 @@ Bienvenido al manual de Documentación del Grupo 5
 <!-- Ejercicio 1 -->
 # Ejercicio 1
 ## Propuesta de CPD
- - Para iniciar, hemos organizado las posibles propuestas para montar nuestro CPD para que cumpla con los requisitos que se piden en el proyecto.
+
+En este apartado hemos diseñado una propuesta completa de Centro de Procesamiento de Datos (CPD), tanto físico como en la nube, cumpliendo con criterios de seguridad, eficiencia, sostenibilidad y escalabilidad que se piden en el proyecto.
+
+### Infraestructura física
+
+- **Ubicación**: CPD situado en el interior del edificio, sin ventanas ni señalización externa, con acceso restringido y muros ignífugos.
+- **Climatización**: Aire acondicionado redundante, control de temperatura (18-27 °C) y humedad (40-60 %), con filtrado HEPA y monitorización en tiempo real.
+- **Cableado y distribución**: Uso de suelo y techo técnico para la canalización de cables y la refrigeración. Separación de cableado eléctrico y de datos.
+- **Racks**: Dos racks de 42U con pasillos frío/calor. Cada rack incluye patch panel, switch, SAI y servidores específicos (web, audio, vídeo, BBDD).
+
+### Infraestructura IT
+
+- **Servidores**: 3 Dell PowerEdge R650xs (Intel Xeon, 64GB RAM, 2×1TB SSD en RAID1).
+- **Switches**: 2 Cisco Catalyst 9300 con uplinks de 10Gb y redundancia.
+- **Patch panels**: Uno por rack para redes interna y externa.
+
+### Infraestructura eléctrica
+
+- **Alimentación redundante**: Doble línea eléctrica + generador de emergencia con arranque automático.
+- **SAIs**: 2 UPS APC Smart-UPS X 3000VA (30 min de autonomía por rack).
+
+### Seguridad
+
+- **Física**: Acceso por NFC y PIN, videovigilancia 24/7, sensores ambientales, sistema FM-200 y rutas de evacuación señalizadas.
+- **Lógica**: Acceso por claves SSH, firewalls (pfSense, UFW, AWS SG), backups locales y en la nube, monitorización con Zabbix y Netdata, uso de RAID 1 y 5.
+
+### Prevención de riesgos laborales
+
+- Extintores CO₂, señalización, EPI, zonas sin obstáculos y acceso seguro.
+
+### Sostenibilidad
+
+- **Optimización energética**: Apagado automático en horas valle, hardware eficiente.
+- **Energía verde**: Contrato con proveedor de energía renovable y uso de regiones AWS sostenibles (ej. Irlanda).
+- **Diseño eficiente**: Rack centralizado, cableado optimizado y ventilación natural pasiva.
+
+### Implementación en la nube (AWS)
+
+- **Servicios utilizados**:
+  - EC2 (instancias para web, audio, vídeo)
+  - S3 (almacenamiento y backups)
+  - RDS (bases de datos)
+  - CloudWatch (monitorización)
+  - Elastic Load Balancer
+  - Route 53 (DNS)
+
+### Comparativa de proveedores cloud
+
+| Proveedor     | Energía verde | Emisiones por región | Herramientas de sostenibilidad              |
+|---------------|---------------|-----------------------|--------------------------------------------|
+| AWS           | Alta (≥80%)   | Sí                    | Carbon Footprint Tool                      |
+| Azure         | Alta (≥60%)   | Sí                    | Sustainability Calculator                  |
+| Google Cloud  | Excelente (100%) | Sí                  | Carbon-Free Energy Score                  |
+
+**Conclusión**: Vemos que AWS ofrece la mejor integración y servicios para empresas como InnovateTech.
+
+
 
 
 ---
