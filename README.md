@@ -101,7 +101,7 @@ Como punto de partida, elaboramos el **modelo Entidad-Relación** a partir de la
 - Niveles de Grupo  
 - Departamentos  
 
-En cada entidad definimos su *clave primaria*, los *atributos* necesarios y las *relaciones* correspondientes entre ellas.
+En cada entidad hemos definido su *clave primaria*, los *atributos* necesarios y las *relaciones* correspondientes entre ellas.
 
 ![Entidad-Relación](bd/Entidad-Relación.png)
 
