@@ -40,6 +40,8 @@ En esta parte del proyecto hemos tenido que idear y crear una base de datos para
 
 Primeramente, hemos hecho el diseño Entidad-Relación con los datos que se muestran: (Empleados, Niveles de Grupo y Departamentos), indicando en cada uno de ellos su clave primaria, los diferentes atributos que tienen y relacionando las entidades entre sí.
 
+![Entidad-Relación](bd/Entidad-Relación.png) 
+
 Seguidamente, hemos realizado la transformación relacional del diseño Entidad-Relación anterior como primer paso antes de empezar la implementació de los datos reales dentro del gestor de bases de datos.
 
 
