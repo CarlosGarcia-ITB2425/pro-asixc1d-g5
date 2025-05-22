@@ -13,7 +13,7 @@ Bienvenido al manual de Documentación del Grupo 5
 <!-- Ejercicio 1 -->
 # Ejercicio 1
 ## Propuesta de CPD
- - Primeramente hemos organizado las posibles propuestas para montar nuestro CPD para que cumpla con los requisitos que se piden en el projecto.
+ - Para iniciar, hemos organizado las posibles propuestas para montar nuestro CPD para que cumpla con los requisitos que se piden en el proyecto.
 
 
 ---
@@ -43,7 +43,11 @@ Primeramente, hemos hecho el diseño Entidad-Relación con los datos que se mues
 ![Entidad-Relación](bd/Entidad-Relación.png) 
 
 
-Seguidamente, hemos realizado la transformación relacional del diseño Entidad-Relación anterior como primer paso antes de empezar la implementació de los datos reales dentro del gestor de bases de datos.
+Seguidamente, hemos realizado la transformación relacional del diseño Entidad-Relación anterior como primer paso antes de empezar la implementación de los datos reales dentro del gestor de bases de datos.
+
+Una vez ya teniendo los datos de los convenios correspondientes y ya hecha la transformación relacional del diseño previo, ya podíamos comenzar la implementación al gestor de bases de datos. (MySQL)
+Hemos creado las tablas de cada una de las Entidades, añadiendo los atributos necesarios con un límite de caracteres e indicando si son la clave primaria, clave foránea, números decimales, números enteros...
+
 
 
 ---
