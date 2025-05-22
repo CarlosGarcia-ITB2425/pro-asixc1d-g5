@@ -55,4 +55,26 @@ Hemos creado las tablas de cada una de las Entidades, añadiendo los atributos n
 <!-- Ejercicio 4 -->
 # Ejercicio 4
 ## Sostenibilidad
- - .
+
+Hemos seguido con los Objetivos de Desarrollo Sostenible (ODS) y los valores del Institut Tecnològic de Barcelona para desarrollar un proyecto con enfoque sostenible y eficiente.
+
+Con ello en mente, hemos ideado las siguientes medidas:
+
+### Acciones sostenibles implementadas
+- Uso de proveedores cloud con energía renovable.
+- Virtualización y consolidación de servicios para reducir el número de máquinas.
+- Monitorización del rendimiento para evitar consumos innecesarios.
+- Elección de regiones cloud con menor huella de carbono.
+
+### Estimación de impacto ambiental
+- Consumo energético anual estimado: ~2.400 kWh
+- Emisiones estimadas de CO₂: ~960 kg CO₂/año  
+  (Reducible usando regiones cloud con energía 100% renovable)
+
+### Medidas adicionales
+- Apagado automático de servicios fuera del horario laboral.
+- Uso de instancias cloud con eficiencia energética certificada.
+- Implementación de autoscaling para optimizar recursos.
+- Promoción de buenas prácticas TIC sostenibles entre los usuarios.
+
+
