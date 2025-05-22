@@ -30,7 +30,6 @@ Bienvenido al manual de Documentación del Grupo 5
 **- Comprobaciones de Ancho de banda:** Las comprobaciones de ancho de banda serán una prioridad para asegurarnos de que el sistema diseñado pueda gestionar adecuadamente los flujos simultáneos de audio y video sin pérdidas de calidad ni colapsos en la red. Queremos una solución que optimice el uso de la infraestructura existente y minimice el impacto ambiental de los servicios que ofrecemos.
 
 
-
 ---
 <!-- Ejercicio 3 -->
 # Ejercicio 3
@@ -38,7 +37,7 @@ Bienvenido al manual de Documentación del Grupo 5
 
 En esta parte del proyecto hemos diseñado y creado una base de datos orientada a la gestión de clientes, cumpliendo con los requisitos establecidos.
 
-### 1. Modelo Entidad-Relación
+### Modelo Entidad-Relación
 
 Como punto de partida, elaboramos el **modelo Entidad-Relación** a partir de las entidades:
 
@@ -50,11 +49,11 @@ En cada entidad definimos su *clave primaria*, los *atributos* necesarios y las 
 
 ![Entidad-Relación](bd/Entidad-Relación.png)
 
-### 2. Transformación a modelo relacional
+### Transformación a modelo relacional
 
 A continuación, realizamos la **transformación del modelo Entidad-Relación al modelo relacional**, como paso previo a su implementación en un sistema gestor de bases de datos. Esta transformación permitió definir las tablas, claves primarias y foráneas, así como los tipos de datos apropiados.
 
-### 3. Implementación en MySQL
+### Implementación en MySQL
 
 Con la estructura definida y los datos necesarios disponibles (por ejemplo, los convenios correspondientes), procedimos a la **implementación en el gestor de bases de datos MySQL**.
 
@@ -63,7 +62,6 @@ Para ello hemos:
 - Creado las tablas correspondientes a cada entidad.  
 - Definido los atributos con sus tipos de datos y restricciones (longitud, enteros, decimales, etc.).  
 - Establecido las claves primarias y foráneas para garantizar la integridad referencial.  
-
 
 
 ---
