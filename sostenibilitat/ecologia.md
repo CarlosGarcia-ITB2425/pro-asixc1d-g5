@@ -18,7 +18,7 @@ Alineats amb els valors de l'**Institut Tecnològic de Barcelona** i els **Objec
 
 ### 📊 4.2 Càlcul de la petjada ecològica
 
-#### 1⃣ Identificació de recursos emprats
+#### 1 Identificació de recursos emprats
 
 **Serveis desplegats:**
 
@@ -30,7 +30,7 @@ Alineats amb els valors de l'**Institut Tecnològic de Barcelona** i els **Objec
 * Funcionament mitjà: 1.440 h/any
 * Tràfic estimat: 1 TB/any
 
-#### 2⃣ Estimació del consum energètic i emissions
+#### 2 Estimació del consum energètic i emissions
 
 | **Recurs**          | **Consum**       | **Emissions (kg CO₂/any)** |
 | ------------------- | ---------------- | -------------------------- |
