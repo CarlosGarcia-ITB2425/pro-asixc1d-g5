@@ -117,13 +117,20 @@ Para hacer la implementación de los datos se instaló MySQL Server en una máqu
 
 Seguidamente, hemos creado la base de datos con el nombre de _ProjG5_ usando el comando _CREATE DATABASE ProjG5;_ y la hemos seleccionado para trabajar con ella con _USE ProjG5;_.
 
-Una vez dentro de esta base de datos se definieron las tres tablas necesarias: _Departament_, _GrupNivell_ y _Empleat_. Cada tabla se diseñó con sus respectivas claves primarias y relaciones necesarias mediante claves foráneas.
+Una vez dentro de esta base de datos se creó las tres tablas necesarias: _Departament_, _GrupNivell_ y _Empleat_. Cada tabla se diseñó con sus respectivas claves primarias y relaciones necesarias mediante claves foráneas.
+
+
+![CreaciónDeTablas](bd/CreaTables.png)
 
 Posteriormente, se insertaron los datos en cada tabla utilizando sentencias _INSERT INTO_, asegurando que los valores correspondieran con las relaciones establecidas entre las entidades.
+
+
+![InserciónDeDatos](bd/InsertTables.png)
 
 Finalmente, hemos verificado la creación de las tablas y la inserción de los datos utilizando los comandos _SHOW TABLES;_ para ver las tablas creadas y _SELECT * FROM nombre_tabla;_ para visualizar los datos insertados en cada una de las tablas que hemos creado.
 
 
+![VisualizaciónDeTablas](bd/SelectTables.png)
 
 ---
 <!-- Ejercicio 4 -->
