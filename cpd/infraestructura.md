@@ -81,6 +81,9 @@ El CPD s’ubica a una zona interior de l’edifici, sense finestres ni façana 
 - Càrrega per rack: 1000W.
 - Autonomia: 30 minuts.
 - Alarmes per sobretemperatura i fallada elèctrica.
+
+### ⚡ Infraestructura elèctrica del CPD
+
 ![Esquema eléctrico del CPD](electricidad_cpd.png)
 
 
