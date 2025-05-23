@@ -84,6 +84,7 @@ El CPD s’ubica a una zona interior de l’edifici, sense finestres ni façana 
 ![Esquema eléctrico del CPD](electricidad_cpd.png)
 
 
+
 ---
 
 ## 4️⃣ Seguretat
