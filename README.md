@@ -111,6 +111,7 @@ A continuación, realizamos la **transformación del modelo Entidad-Relación al
 
 Con la estructura definida y los datos necesarios disponibles (por ejemplo, los convenios correspondientes), procedimos a la **implementación en el gestor de bases de datos MySQL**.
 
+
 ### Implementación de los datos en MySQL 
 
 Para hacer la implementación de los datos se instaló MySQL Server en una máquina Ubuntu 24.04 utilizando _sudo apt install mysql-server_ y se accedió al cliente de MySQL con _sudo mysql_.
@@ -122,10 +123,12 @@ Una vez dentro de esta base de datos se creó las tres tablas necesarias: _Depar
 
 ![CreaciónDeTablas](bd/CreaTables.png)
 
+
 Posteriormente, se insertaron los datos en cada tabla utilizando sentencias _INSERT INTO_, asegurando que los valores correspondieran con las relaciones establecidas entre las entidades.
 
 
 ![InserciónDeDatos](bd/InsertTables.png)
+
 
 Finalmente, hemos verificado la creación de las tablas y la inserción de los datos utilizando los comandos _SHOW TABLES;_ para ver las tablas creadas y _SELECT * FROM nombre_tabla;_ para visualizar los datos insertados en cada una de las tablas que hemos creado.
 
