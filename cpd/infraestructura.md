@@ -66,7 +66,7 @@ El CPD s’ubica a una zona interior de l’edifici, sense finestres ni façana 
 - VLANs: dades, administració, backups, streaming.
 
 ### 📊 Diagrama de racks
-![Diagrama del CPD](./diagrama_cpd.png)
+![Diagrama del CPD]
 
 ---
 
