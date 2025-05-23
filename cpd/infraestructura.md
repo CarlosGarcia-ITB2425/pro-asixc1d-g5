@@ -66,7 +66,7 @@ El CPD s’ubica a una zona interior de l’edifici, sense finestres ni façana 
 - VLANs: dades, administració, backups, streaming.
 
 ### 📊 Diagrama de racks
-![Diagrama del CPD]
+![Diagrama del CPD](diagrama_cpd.png)
 
 ---
 
@@ -82,6 +82,7 @@ El CPD s’ubica a una zona interior de l’edifici, sense finestres ni façana 
 - Autonomia: 30 minuts.
 - Alarmes per sobretemperatura i fallada elèctrica.
 
+![Diagrama de la electricitat](electricidad_cpd.png)
 ---
 
 ## 4️⃣ Seguretat
