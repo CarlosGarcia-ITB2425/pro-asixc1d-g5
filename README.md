@@ -109,15 +109,20 @@ En cada entidad hemos definido su *clave primaria*, los *atributos* necesarios y
 
 A continuación, realizamos la **transformación del modelo Entidad-Relación al modelo relacional**, como paso previo a su implementación en un sistema gestor de bases de datos. Esta transformación permitió definir las tablas, claves primarias y foráneas, así como los tipos de datos apropiados.
 
-### Implementación en MySQL
-
 Con la estructura definida y los datos necesarios disponibles (por ejemplo, los convenios correspondientes), procedimos a la **implementación en el gestor de bases de datos MySQL**.
 
-Para ello hemos:
+### Implementación de los datos en MySQL 
 
-- Creado las tablas correspondientes a cada entidad.  
-- Definido los atributos con sus tipos de datos y restricciones (longitud, enteros, decimales, etc.).  
-- Establecido las claves primarias y foráneas para garantizar la integridad referencial.  
+Para hacer la implementación de los datos se instaló MySQL Server en una máquina Ubuntu 24.04 utilizando `sudo apt install mysql-server` y se accedió al cliente de MySQL con `sudo mysql`.
+
+Seguidamente, hemos creado la base de datos con el nombre de `ProjG5` usando el comando `CREATE DATABASE ProjG5;` y la hemos seleccionado para trabajar con ella con `USE ProjG5;`.
+
+Una vez dentro de esta base de datos se definieron las tres tablas necesarias: `Departament`, `GrupNivell` y `Empleat`. Cada tabla se diseñó con sus respectivas claves primarias y relaciones necesarias mediante claves foráneas.
+
+Posteriormente, se insertaron los datos en cada tabla utilizando sentencias `INSERT INTO`, asegurando que los valores correspondieran con las relaciones establecidas entre las entidades.
+
+Finalmente, hemos verificado la creación de las tablas y la inserción de los datos utilizando los comandos `SHOW TABLES;` para ver las tablas creadas y `SELECT * FROM nombre_tabla;` para visualizar los datos insertados en cada una de las tablas que hemos creado.
+
 
 
 ---
