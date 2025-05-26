@@ -14,7 +14,7 @@ Como punto de partida, elaboramos el **modelo Entidad-Relación** a partir de la
 
 En cada entidad hemos definido su *clave primaria*, los *atributos* necesarios y las *relaciones* correspondientes entre ellas.
 
-![Entidad-Relación](bd/Entidad-Relación.png)
+![Entidad-Relación](Entidad-Relación.png)
 
 ### Transformación a modelo relacional
 
