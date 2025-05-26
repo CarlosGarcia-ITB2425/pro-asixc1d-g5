@@ -106,10 +106,8 @@ En esta fase del proyecto se diseñó y creó una base de datos enfocada en la g
 
 Instalación en Ubuntu:
 
-```bash
 sudo apt install mysql-server
 sudo mysql
-```
 
 Creación de base de datos `ProjG5` y tablas `Departament`, `GrupNivell`, `Empleat`.  
 Inserción y verificación de datos con `INSERT`, `SHOW TABLES`, y `SELECT`.
