@@ -75,6 +75,6 @@ El usuario *Admin* podemos ver que no tiene ningún tipo de restricción y puede
 
 ![AdminUsu](UsuAdmin.png)
 
-Y por otra parte, el usuario *Supervisor* puede ver las tablas y actualizarlas, pero no es capaz de insertar nuevos datos en ellas.
+Y por otra parte, el usuario *Supervisor* puede ver las tablas y actualizarlas, pero no es capaz de insertar ni eliminar datos en ellas.
 
 ![SuperUsu](UsuSuper.png)
