@@ -18,7 +18,7 @@ El CPD s’ubica a una zona interior de l’edifici, sense finestres ni façana 
 
 ### 🔒 Mesures d’ocultació
 - Porta sense rètols identificatius.
-- Nom de la sala: _Sala Tècnica 17_.
+- Nom de la sala: *Sala Tècnica 17*.
 - Accés restringit i integrat amb sistemes de seguretat.
 
 ### 🔌 Gestió del cablejat
