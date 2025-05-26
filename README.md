@@ -129,7 +129,7 @@ Esta transformación sirvió como base para la implementación en MySQL.
 
 Se instaló **MySQL Server** en una máquina con Ubuntu 24.04:
 
-```bash
+bash
 sudo apt install mysql-server
 sudo mysql
 
