@@ -97,23 +97,23 @@ En esta fase del proyecto se diseñó y creó una base de datos enfocada en la g
 
 ## 🧩 Modelo Entidad-Relación (ER)
 
-Se identificaron y modelaron las siguientes entidades:
+Identificamos y modelamos las siguientes entidades:
 
 - **Empleados**
 - **Niveles de Grupo**
 - **Departamentos**
 
-Para cada entidad se definieron:
+Para cada entidad hemos definido:
 
-- Claves primarias
-- Atributos relevantes
-- Relaciones entre las entidades
+- Las claves primarias
+- Los atributos relevantes
+- Las relaciones que exixten entre las entidades
 
 ---
 
 ## 🔄 Transformación a Modelo Relacional
 
-El modelo ER fue transformado al modelo relacional, estableciendo:
+El modelo Entidad-Relación fue transformado al modelo relacional creando:
 
 - Tablas correspondientes
 - Claves primarias y foráneas
@@ -127,11 +127,11 @@ Esta transformación sirvió como base para la implementación en MySQL.
 
 ### Instalación
 
-Se instaló **MySQL Server** en una máquina con Ubuntu 24.04:
+Instalamos **MySQL Server** en una máquina con Ubuntu 24.04 e iniciamos el proceso de creación de la base de datos. Seguidamente, se crearon en las diferentes tablas y se insertaron los datos en ellas.
 
-bash
-sudo apt install mysql-server
-sudo mysql
+También, se crearon distintos usuarios y roles con ciertas restricciones. Algunos podias insertar nuevos datos en las tablas, alguno solo podia consultarlas, entre otros casos...  
+
+
 
 ---
 <!-- Ejercicio 4 -->
