@@ -1,55 +1,57 @@
-# Pro-ASIXc1D-G5
-Projecte Transversal ASIXc 2024-2025
 
-Bienvenido al manual de Documentación del Grupo 5
+# 🚀 Pro-ASIXc1D-G5  
+**Projecte Transversal ASIXc 2024-2025**
+
+Bienvenido al manual de Documentación del Grupo 5  
 ---
-## Indice
-1. [Proposta CPD](#ejercicio-1)
-2. [Implantación de los servicios de Audio y Video](#ejercicio-2)
-3. [Diseño e implementación de una Base de Datos](#ejercicio-3)
-4. [Sostenibilidad](#ejercicio-4)
+
+## 📚 Índice
+1. [💡 Proposta CPD](#ejercicio-1)
+2. [🎧 Implantación de los servicios de Audio y Video](#ejercicio-2)
+3. [🗄️ Diseño e implementación de una Base de Datos](#ejercicio-3)
+4. [🌱 Sostenibilidad](#ejercicio-4)
 
 ---
 <!-- Ejercicio 1 -->
-# Ejercicio 1
-## Propuesta de CPD
+# 🏗️ Ejercicio 1  
+## 🧠 Propuesta de CPD
 
 En este apartado hemos diseñado una propuesta completa de Centro de Procesamiento de Datos (CPD), tanto físico como en la nube, cumpliendo con criterios de seguridad, eficiencia, sostenibilidad y escalabilidad que se piden en el proyecto.
 
-### Infraestructura física
+### 🏢 Infraestructura física
 
 - **Ubicación**: CPD situado en el interior del edificio, sin ventanas ni señalización externa, con acceso restringido y muros ignífugos.
 - **Climatización**: Aire acondicionado redundante, control de temperatura (18-27 °C) y humedad (40-60 %), con filtrado HEPA y monitorización en tiempo real.
 - **Cableado y distribución**: Uso de suelo y techo técnico para la canalización de cables y la refrigeración. Separación de cableado eléctrico y de datos.
 - **Racks**: Dos racks de 42U con pasillos frío/calor. Cada rack incluye patch panel, switch, SAI y servidores específicos (web, audio, vídeo, BBDD).
 
-### Infraestructura IT
+### 💻 Infraestructura IT
 
 - **Servidores**: 3 Dell PowerEdge R650xs (Intel Xeon, 64GB RAM, 2×1TB SSD en RAID1).
 - **Switches**: 2 Cisco Catalyst 9300 con uplinks de 10Gb y redundancia.
 - **Patch panels**: Uno por rack para redes interna y externa.
 
-### Infraestructura eléctrica
+### ⚡ Infraestructura eléctrica
 
 - **Alimentación redundante**: Doble línea eléctrica + generador de emergencia con arranque automático.
 - **SAIs**: 2 UPS APC Smart-UPS X 3000VA (30 min de autonomía por rack).
 
-### Seguridad
+### 🔐 Seguridad
 
 - **Física**: Acceso por NFC y PIN, videovigilancia 24/7, sensores ambientales, sistema FM-200 y rutas de evacuación señalizadas.
 - **Lógica**: Acceso por claves SSH, firewalls (pfSense, UFW, AWS SG), backups locales y en la nube, monitorización con Zabbix y Netdata, uso de RAID 1 y 5.
 
-### Prevención de riesgos laborales
+### 🦺 Prevención de riesgos laborales
 
 - Extintores CO₂, señalización, EPI, zonas sin obstáculos y acceso seguro.
 
-### Sostenibilidad
+### 🌿 Sostenibilidad
 
 - **Optimización energética**: Apagado automático en horas valle, hardware eficiente.
 - **Energía verde**: Contrato con proveedor de energía renovable y uso de regiones AWS sostenibles (ej. Irlanda).
 - **Diseño eficiente**: Rack centralizado, cableado optimizado y ventilación natural pasiva.
 
-### Implementación en la nube (AWS)
+### ☁️ Implementación en la nube (AWS)
 
 - **Servicios utilizados**:
   - EC2 (instancias para web, audio, vídeo)
@@ -59,7 +61,7 @@ En este apartado hemos diseñado una propuesta completa de Centro de Procesamien
   - Elastic Load Balancer
   - Route 53 (DNS)
 
-### Comparativa de proveedores cloud
+### 📊 Comparativa de proveedores cloud
 
 | Proveedor     | Energía verde | Emisiones por región | Herramientas de sostenibilidad              |
 |---------------|---------------|-----------------------|--------------------------------------------|
@@ -69,94 +71,65 @@ En este apartado hemos diseñado una propuesta completa de Centro de Procesamien
 
 **Conclusión**: Vemos que AWS ofrece la mejor integración y servicios para empresas como InnovateTech.
 
-
-
-
 ---
 <!-- Ejercicio 2 -->
-# Ejercicio 2
-## Implantación de los servicios de Audio y Video
+# 📽️ Ejercicio 2  
+## 🎙️ Implantación de los servicios de Audio y Video
 
-**- Implantación de un servidor de Audio:** Hemos instalado un servidor de audio que nos permite gestionar transmisiones en tiempo real para nuestros clientes y usuarios. La infraestructura debe ser capaz de soportar el volumen de tráfico generado por este tipo de servicio, sin comprometer la calidad del contenido. Además, hemos realizado diversas comprobaciones para asegurarnos de que nuestra red pueda gestionar de manera eficiente este tráfico.
-
-
-**- Implantación de un servidor de Streaming Video:** Otro de los servicios es el streaming de video. Hemos solicitado la implementación de un servidor que permita una distribución fluida y de calidad de nuestro contenido audiovisual. Al mismo tiempo, hemos hecho diversas pruebas para evitar saturaciones en la red y garantizar una experiencia de usuario óptima, maximizando el uso responsable de los recursos disponibles.
-
-
-**- Comprobaciones de Ancho de banda:** Las comprobaciones de ancho de banda serán una prioridad para asegurarnos de que el sistema diseñado pueda gestionar adecuadamente los flujos simultáneos de audio y video sin pérdidas de calidad ni colapsos en la red. Queremos una solución que optimice el uso de la infraestructura existente y minimice el impacto ambiental de los servicios que ofrecemos.
-
+- **Implantación de un servidor de Audio**: servidor para transmisiones en tiempo real, garantizando calidad y rendimiento de red.
+- **Implantación de un servidor de Streaming Video**: distribución eficiente de contenido audiovisual con pruebas de estabilidad.
+- **Comprobaciones de Ancho de banda**: verificación del sistema para soportar flujos simultáneos de audio y video sin pérdidas.
 
 ---
 <!-- Ejercicio 3 -->
-# Ejercicio 3
-# Resumen del Proyecto: Base de Datos para Gestión de Clientes
+# 🗄️ Ejercicio 3  
+## 🧾 Resumen del Proyecto: Base de Datos para Gestión de Clientes
 
 En esta fase del proyecto se diseñó y creó una base de datos enfocada en la gestión de clientes, cumpliendo con los requisitos definidos.
 
----
+### 🧩 Modelo Entidad-Relación (ER)
 
-## 🧩 Modelo Entidad-Relación (ER)
+- **Entidades**: Empleados, Niveles de Grupo, Departamentos
+- Se definieron claves primarias, atributos y relaciones.
 
-Identificamos y modelamos las siguientes entidades:
+### 🔄 Transformación a Modelo Relacional
 
-- **Empleados**
-- **Niveles de Grupo**
-- **Departamentos**
+- Tablas, claves primarias y foráneas, tipos de datos adecuados.
+- Base para implementación en MySQL.
 
-Para cada entidad hemos definido:
+### 🛠️ Implementación en MySQL
 
-- Las claves primarias
-- Los atributos relevantes
-- Las relaciones que exixten entre las entidades
+Instalación en Ubuntu:
 
----
+```bash
+sudo apt install mysql-server
+sudo mysql
+```
 
-## 🔄 Transformación a Modelo Relacional
-
-El modelo Entidad-Relación fue transformado al modelo relacional creando:
-
-- Tablas correspondientes
-- Claves primarias y foráneas
-- Tipos de datos adecuados
-
-Esta transformación sirvió como base para la implementación en MySQL.
-
----
-
-## 🛠️ Implementación en MySQL
-
-### Instalación
-
-Instalamos **MySQL Server** en una máquina con Ubuntu 24.04 e iniciamos el proceso de creación de la base de datos. Seguidamente, se crearon en las diferentes tablas y se insertaron los datos en ellas.
-
-También, se crearon distintos usuarios y roles con ciertas restricciones. Algunos podias insertar nuevos datos en las tablas, alguno solo podia consultarlas, entre otros casos...  
-
-
+Creación de base de datos `ProjG5` y tablas `Departament`, `GrupNivell`, `Empleat`.  
+Inserción y verificación de datos con `INSERT`, `SHOW TABLES`, y `SELECT`.
 
 ---
 <!-- Ejercicio 4 -->
-# Ejercicio 4
-## Sostenibilidad
+# 🌱 Ejercicio 4  
+## 🌍 Sostenibilidad
 
-Hemos seguido con los Objetivos de Desarrollo Sostenible (ODS) y los valores del Institut Tecnològic de Barcelona para desarrollar un proyecto con enfoque sostenible y eficiente.
+Siguiendo los ODS y valores del Institut Tecnològic de Barcelona, se han implementado las siguientes medidas:
 
-Con ello en mente, hemos ideado las siguientes medidas:
+### ✅ Acciones sostenibles implementadas
 
-### Acciones sostenibles implementadas
-- Uso de proveedores cloud con energía renovable.
-- Virtualización y consolidación de servicios para reducir el número de máquinas.
-- Monitorización del rendimiento para evitar consumos innecesarios.
-- Elección de regiones cloud con menor huella de carbono.
+- Proveedores cloud con energía renovable.
+- Virtualización para reducir máquinas.
+- Monitorización del consumo.
+- Regiones cloud con baja huella de carbono.
 
-### Estimación de impacto ambiental
-- Consumo energético anual estimado: ~2.400 kWh
-- Emisiones estimadas de CO₂: ~960 kg CO₂/año  
-  (Reducible usando regiones cloud con energía 100% renovable)
+### 📉 Estimación de impacto ambiental
 
-### Medidas adicionales
-- Apagado automático de servicios fuera del horario laboral.
-- Uso de instancias cloud con eficiencia energética certificada.
-- Implementación de autoscaling para optimizar recursos.
-- Promoción de buenas prácticas TIC sostenibles entre los usuarios.
+- **Consumo anual estimado**: ~2.400 kWh
+- **Emisiones CO₂**: ~960 kg CO₂/año (reducible)
 
+### ➕ Medidas adicionales
 
+- Apagado automático fuera de horario.
+- Instancias eficientes energéticamente.
+- Autoscaling y buenas prácticas TIC sostenibles.
