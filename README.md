@@ -116,8 +116,8 @@ Inserción y verificación de datos con `INSERT`, `SHOW TABLES`, y `SELECT`.
 
 ---
 <!-- Ejercicio 4 -->
-#🌱 Ejercicio 4  
-## 🌍 Sostenibilidad
+# 🌍 Ejercicio 4  
+## 🌱 Sostenibilidad
 
 
 Siguiendo los ODS y valores del Institut Tecnològic de Barcelona, se han implementado las siguientes medidas:
