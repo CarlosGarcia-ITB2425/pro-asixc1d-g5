@@ -148,6 +148,10 @@ Para finalizar, hemos creado 3 diferentes usuarios para la base de datos y les h
 
 Cada uno de estos usuarios tenia acceso a la base de datos con su propia contraseña.
 
+![CreaRol1](bd/CreateRoles1.png)
+
+![CreaRol2](bd/CreateRoles2.png)
+
 ### PRUEBAS DE USOS DE USUARIOS / PERMISOS
 
 
