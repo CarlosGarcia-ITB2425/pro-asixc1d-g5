@@ -9,7 +9,7 @@ Bienvenido al manual de Documentación del Grupo 5
 1. [🧠 Propuesta de CPD](#️-ejercicio-1)  
 2. [🎧 Implantación de los servicios de Audio y Video](#️-ejercicio-2)  
 3. [🗄️ Diseño e implementación de una Base de Datos](#️-ejercicio-3)  
-4. [🍃 Sostenibilidad](#ejercicio-4)
+4. [🍃 Sostenibilidad](#-ejercicio-4)
 
 ---
 <!-- Ejercicio 1 -->
@@ -102,19 +102,17 @@ En esta fase del proyecto se diseñó y creó una base de datos enfocada en la g
 - Tablas, claves primarias y foráneas, tipos de datos adecuados.
 - Base para implementación en MySQL.
 
-### 🛠️ Implementación en MySQL
+## 🛠️ Implementación en MySQL
 
-Instalación en Ubuntu:
 
-sudo apt install mysql-server
-sudo mysql
+Instalamos **MySQL Server** en una máquina con Ubuntu 24.04 e iniciamos el proceso de creación de la base de datos. Seguidamente, se crearon en las diferentes tablas y se insertaron los datos en ellas.
 
-Creación de base de datos `ProjG5` y tablas `Departament`, `GrupNivell`, `Empleat`.  
-Inserción y verificación de datos con `INSERT`, `SHOW TABLES`, y `SELECT`.
+También, se crearon distintos usuarios y roles con ciertas restricciones. Algunos podias insertar nuevos datos en las tablas, alguno solo podia consultarlas, entre otros casos...  
+
 
 ---
 <!-- Ejercicio 4 -->
-# Ejercicio 4
+# 🌿 Ejercicio 4
 ## 🍃 Sostenibilidad
 
 
