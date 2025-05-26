@@ -1,29 +1,29 @@
-# Base de dades
+# 🗄️ Base de dades
 
 Aquest apartat descriu el disseny i implementació de la base de dades
 
 En esta parte del proyecto hemos diseñado y creado una base de datos orientada a la gestión de clientes, cumpliendo con los requisitos establecidos.
 
-### Modelo Entidad-Relación
+### 🧩 Modelo Entidad-Relación
 
 Como punto de partida, elaboramos el **modelo Entidad-Relación** a partir de las entidades:
 
-- Empleados  
-- Niveles de Grupo  
-- Departamentos  
+- 👨‍💼 Empleados  
+- 🧑‍🤝‍🧑 Niveles de Grupo  
+- 🏢 Departamentos  
 
 En cada entidad hemos definido su *clave primaria*, los *atributos* necesarios y las *relaciones* correspondientes entre ellas.
 
 ![Entidad-Relación](Entidad-Relación.png)
 
-### Transformación a modelo relacional
+### 🔄 Transformación a modelo relacional
 
 A continuación, realizamos la **transformación del modelo Entidad-Relación al modelo relacional**, como paso previo a su implementación en un sistema gestor de bases de datos. Esta transformación permitió definir las tablas, claves primarias y foráneas, así como los tipos de datos apropiados.
 
 Con la estructura definida y los datos necesarios disponibles (por ejemplo, los convenios correspondientes), procedimos a la **implementación en el gestor de bases de datos MySQL**.
 
 
-### Implementación de los datos en MySQL 
+### 🛠️ Implementación de los datos en MySQL 
 
 Para hacer la implementación de los datos se instaló MySQL Server en una máquina Ubuntu 24.04 utilizando _sudo apt install mysql-server_ y se accedió al cliente de MySQL con _sudo mysql_.
 
@@ -63,7 +63,7 @@ Cada uno de estos usuarios tenia acceso a la base de datos con su propia contras
 
 ![CreaRol2](CreateRoles2.png)
 
-### Pruebas de usos de Usuarios / Permisos
+### 🧪 Pruebas de usos de Usuarios / Permisos
 
 Por último, hicimos diferentes comprobaciones de sentencias (*Insert, Select, Update...*) para poner a prueba las restricciones de los roles de cada usuario creado.
 
