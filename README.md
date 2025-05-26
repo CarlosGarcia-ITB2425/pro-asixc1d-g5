@@ -136,7 +136,11 @@ Después, hemos verificado la creación de las tablas y la inserción de los dat
 ![VisualizaciónDeTablas](bd/SelectTables.png)
 
 
-Para finalizar, hemos creado 3 diferentes usuarios para la base de datos y les hemos asignado distintos roles con permisos diferentes. Por ejemplo...
+Para finalizar, hemos creado 3 diferentes usuarios para la base de datos y les hemos asignado distintos roles con permisos diferentes.
+
+![CreaUSer1](bd/CreateUsers1.png)
+
+![CreaUser2](bd/CreateUsers2.png)
 
 - El usuario *Prueba* simplemente podia visualizar las tablas con el comando _SELECT * FROM nombre_tabla;_
 - Otro usuario era el *Admin*, este usuario tenia acceso total a las tablas de la base de datos, sin ninguna limitación o restricción.
