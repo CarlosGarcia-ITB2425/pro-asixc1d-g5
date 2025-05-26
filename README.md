@@ -152,8 +152,21 @@ Cada uno de estos usuarios tenia acceso a la base de datos con su propia contras
 
 ![CreaRol2](bd/CreateRoles2.png)
 
-### PRUEBAS DE USOS DE USUARIOS / PERMISOS
+### Pruebas de usos de Usuarios / Permisos
 
+Por último, hicimos diferentes comprobaciones de sentencias (*Insert, Select, Update...*) para poner a prueba las restricciones de los roles de cada usuario creado.
+
+En esta imagen vemos que el usuario *Prueba* puede consultar las tablas pero no tienen permiso para insertar nuevos datos.
+
+![PruebaUsu](bd/UsuPrueba.png)
+
+El usuario *Admin* podemos ver que no tiene ningún tipo de restricción y puede visualizar e insertar datos en las tablas sin problema.
+
+![AdminUsu](bd/UsuAdmin.png)
+
+Y por otra parte el usuario *supervisor* puede ver las tablas y actualizarlas, pero no es capaz de insertar datos en las diferentes tablas. 
+
+![SuperUsu](bd/UsuSuper.png)
 
 ---
 <!-- Ejercicio 4 -->
