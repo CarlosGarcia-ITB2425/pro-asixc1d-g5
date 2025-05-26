@@ -3,6 +3,7 @@
 **Projecte Transversal ASIXc 2024-2025**
 
 Bienvenido al manual de Documentación del Grupo 5  
+
 ---
 
 ## 📚 Índice
