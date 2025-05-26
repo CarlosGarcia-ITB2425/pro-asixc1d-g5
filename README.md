@@ -9,7 +9,7 @@ Bienvenido al manual de Documentación del Grupo 5
 1. [🧠 Propuesta de CPD](#️-ejercicio-1)  
 2. [🎧 Implantación de los servicios de Audio y Video](#️-ejercicio-2)  
 3. [🗄️ Diseño e implementación de una Base de Datos](#️-ejercicio-3)  
-4. [Sostenibilidad](#ejercicio-4)
+4. [🍃 Sostenibilidad](#ejercicio-4)
 
 ---
 <!-- Ejercicio 1 -->
