@@ -130,10 +130,22 @@ Posteriormente, se insertaron los datos en cada tabla utilizando sentencias _INS
 ![InserciónDeDatos](bd/InsertTables.png)
 
 
-Finalmente, hemos verificado la creación de las tablas y la inserción de los datos utilizando los comandos _SHOW TABLES;_ para ver las tablas creadas y _SELECT * FROM nombre_tabla;_ para visualizar los datos insertados en cada una de las tablas que hemos creado.
+Después, hemos verificado la creación de las tablas y la inserción de los datos utilizando los comandos _SHOW TABLES;_ para ver las tablas creadas y _SELECT * FROM nombre_tabla;_ para visualizar los datos insertados en cada una de las tablas que hemos creado.
 
 
 ![VisualizaciónDeTablas](bd/SelectTables.png)
+
+
+Para finalizar, hemos creado 3 diferentes usuarios para la base de datos y les hemos asignado distintos roles con permisos diferentes. Por ejemplo...
+
+- El usuario *Prueba* simplemente podia visualizar las tablas con el comando _SELECT * FROM nombre_tabla;_
+- Otro usuario era el *Admin*, este usuario tenia acceso total a las tablas de la base de datos, sin ninguna limitación o restricción.
+- Por ultimo teniamos al usuario *Supervisior*, este usuario solamente tenia acceso a visualizar las tablas y a actualizarlas.
+
+Cada uno de estos usuarios tenia acceso a la base de datos con su propia contraseña.
+
+### PRUEBAS DE USOS DE USUARIOS / PERMISOS
+
 
 ---
 <!-- Ejercicio 4 -->
