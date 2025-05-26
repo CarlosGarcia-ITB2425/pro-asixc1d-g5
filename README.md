@@ -116,7 +116,6 @@ También, se crearon distintos usuarios y roles con ciertas restricciones. Algun
 ## 🍃 Sostenibilidad
 
 
-
 Siguiendo los ODS y valores del Institut Tecnològic de Barcelona, se han implementado las siguientes medidas:
 
 ### ✅ Acciones sostenibles implementadas
