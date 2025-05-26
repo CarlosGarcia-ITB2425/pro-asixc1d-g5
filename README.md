@@ -115,7 +115,7 @@ Inserción y verificación de datos con `INSERT`, `SHOW TABLES`, y `SELECT`.
 ---
 <!-- Ejercicio 4 -->
 # Ejercicio 4
-## Sostenibilidad
+## 🍃 Sostenibilidad
 
 
 
