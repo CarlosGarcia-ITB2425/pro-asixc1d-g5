@@ -105,7 +105,6 @@ En esta fase del proyecto se diseñó y creó una base de datos enfocada en la g
 
 ## 🛠️ Implementación en MySQL
 
-
 Instalamos **MySQL Server** en una máquina con Ubuntu 24.04 e iniciamos el proceso de creación de la base de datos. Seguidamente, se crearon en las diferentes tablas y se insertaron los datos en ellas.
 
 También, se crearon distintos usuarios y roles con ciertas restricciones. Algunos podias insertar nuevos datos en las tablas, alguno solo podia consultarlas, entre otros casos...  
