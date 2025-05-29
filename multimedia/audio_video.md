@@ -81,6 +81,8 @@ sudo darkice
 ```
 
 ## 9️⃣ Reproducir archivos de prueba  
+![mp3 ](streamloop.png)
+
 ![mp3](reproducciomp3.png)
 
 ![mp4](reproducirmp4.png)
