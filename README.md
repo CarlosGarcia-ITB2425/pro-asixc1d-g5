@@ -17,73 +17,73 @@ Benvingut al manual de Documentació del Grup 5
 # 🏗️ Ejercicio 1  
 ## 🧠 Proposta de CPD
 
-En este apartado hemos diseñado una propuesta completa de Centro de Procesamiento de Datos (CPD), tanto físico como en la nube, cumpliendo con criterios de seguridad, eficiencia, sostenibilidad y escalabilidad que se piden en el proyecto.
+En aquest apartat hem dissenyat una proposta completa de Centre de Processament de Dades (CPD), tant físic com en el núvol, complint amb criteris de seguretat, eficiència, sostenibilitat i escalabilitat que es demanen en el projecte.
 
 ### 🏢 Infraestructura física
 
-- **Ubicación**: CPD situado en el interior del edificio, sin ventanas ni señalización externa, con acceso restringido y muros ignífugos.
-- **Climatización**: Aire acondicionado redundante, control de temperatura (18-27 °C) y humedad (40-60 %), con filtrado HEPA y monitorización en tiempo real.
-- **Cableado y distribución**: Uso de suelo y techo técnico para la canalización de cables y la refrigeración. Separación de cableado eléctrico y de datos.
-- **Racks**: Dos racks de 42U con pasillos frío/calor. Cada rack incluye patch panel, switch, SAI y servidores específicos (web, audio, vídeo, BBDD).
+- **Ubicació**: CPD situat a l'interior de l'edifici, sense finestres ni senyalització externa, amb accés restringit i murs ignífugs.
+- **Climatització**: Aire condicionat redundant, control de temperatura (18-27 °C) i humitat (40-60 %), amb filtrat HEPA i monitoratge en temps real.
+- **Cablejat i distribució**: Ús de sòl i sostre tècnic per a la canalització de cables i la refrigeració. Separació de cablejat elèctric i de dades.
+- **Racks**: Dos racks de 42U amb passadissos fred/calor. Cada rack inclou patch panell, switch, SAI i servidors específics (web, àudio, vídeo, BBDD).
 
 ### 💻 Infraestructura IT
 
-- **Servidores**: 3 Dell PowerEdge R650xs (Intel Xeon, 64GB RAM, 2×1TB SSD en RAID1).
-- **Switches**: 2 Cisco Catalyst 9300 con uplinks de 10Gb y redundancia.
-- **Patch panels**: Uno por rack para redes interna y externa.
+- **Servidors**: 3 Dell PowerEdge R650xs (Intel Xeon, 64GB RAM, 2×1TB SSD en RAID1).
+- **Switches**: 2 Cisco Catalyst 9300 amb uplinks de 10Gb i redundància.
+- **Patch panels**: Un per rack per a xarxes interna i externa.
 
-### ⚡ Infraestructura eléctrica
+### ⚡ Infraestructura elèctrica
 
-- **Alimentación redundante**: Doble línea eléctrica + generador de emergencia con arranque automático.
-- **SAIs**: 2 UPS APC Smart-UPS X 3000VA (30 min de autonomía por rack).
+- **Alimentació redundant**: Doble línia elèctrica + generador d'emergència amb arrencada automàtica.
+- **SAIs**: 2 UPS APC Smart-UPS X 3000VA (30 min d'autonomia per rack).
 
-### 🔐 Seguridad
+### 🔐 Seguretat
 
-- **Física**: Acceso por NFC y PIN, videovigilancia 24/7, sensores ambientales, sistema FM-200 y rutas de evacuación señalizadas.
-- **Lógica**: Acceso por claves SSH, firewalls (pfSense, UFW, AWS SG), backups locales y en la nube, monitorización con Zabbix y Netdata, uso de RAID 1 y 5.
+- **Física**: Accés per NFC i PIN, videovigilància 24/7, sensors ambientals, sistema FM-200 i rutes d'evacuació senyalitzades.
+- **Lògica**: Accés per claus SSH, firewalls (pfSense, UFW, AWS SG), còpies de seguretat locals i en el núvol, monitoratge amb Zabbix i Netdata, ús de RAID 1 i 5.
 
-### 🦺 Prevención de riesgos laborales
+### 🦺 Prevenció de riscos laborals
 
-- Extintores CO₂, señalización, EPI, zonas sin obstáculos y acceso seguro.
+- Extintors CO₂, senyalització, EPI, zones sense obstacles i accés segur.
 
-### 🌿 Sostenibilidad
+### 🌿 Sostenibilitat
 
-- **Optimización energética**: Apagado automático en horas valle, hardware eficiente.
-- **Energía verde**: Contrato con proveedor de energía renovable y uso de regiones AWS sostenibles (ej. Irlanda).
-- **Diseño eficiente**: Rack centralizado, cableado optimizado y ventilación natural pasiva.
+- **Optimització energètica**: Apagada automàtica en hores vall, maquinari eficient.
+- **Energia verda**: Contracte amb proveïdor d'energia renovable i ús de regions AWS sostenibles (ex. Irlanda).
+- **Disseny eficient**: Rack centralitzat, cablejat optimitzat i ventilació natural passiva.
 
-### ☁️ Implementación en la nube (AWS)
+### ☁️ Implementació en el núvol (AWS)
 
-- **Servicios utilizados**:
-  - EC2 (instancias para web, audio, vídeo)
-  - S3 (almacenamiento y backups)
-  - RDS (bases de datos)
-  - CloudWatch (monitorización)
-  - Elastic Load Balancer
-  - Route 53 (DNS)
+- **Serveis utilitzats**:
+ - EC2 (instàncies per a web, àudio, vídeo)
+ - S3 (emmagatzematge i còpies de seguretat)
+ - RDS (bases de dades)
+ - CloudWatch (monitoratge)
+ - Elastic Lloeu Balancer
+ - Route 53 (DNS)
 
-### 📊 Comparativa de proveedores cloud
+### 📊 Comparativa de proveïdors cloud
 
-| Proveedor     | Energía verde | Emisiones por región | Herramientas de sostenibilidad              |
+| Proveïdor     | Energia verda | Emisions per regió    | Eines de sostenibilitat                    |
 |---------------|---------------|-----------------------|--------------------------------------------|
 | AWS           | Alta (≥80%)   | Sí                    | Carbon Footprint Tool                      |
 | Azure         | Alta (≥60%)   | Sí                    | Sustainability Calculator                  |
-| Google Cloud  | Excelente (100%) | Sí                  | Carbon-Free Energy Score                  |
+| Google Cloud  | Excel·lent (100%) | Sí                | Carbon-Free Energy Score                   |
 
-**Conclusión**: Vemos que AWS ofrece la mejor integración y servicios para empresas como InnovateTech.
+**Conclusió**: Veiem que AWS ofereix la millor integració i serveis per empreses com InnovateTech.
 
 ---
 <!-- Ejercicio 2 -->
 # 📽️ Ejercicio 2  
 ## 🎙️ Implantació dels serveis d'Àudio i Vídeo
 
-**- Implantación de un servidor de Audio:** Hemos instalado un servidor de audio que nos permite gestionar transmisiones en tiempo real para nuestros clientes y usuarios. La infraestructura debe ser capaz de soportar el volumen de tráfico generado por este tipo de servicio, sin comprometer la calidad del contenido. Además, hemos realizado diversas comprobaciones para asegurarnos de que nuestra red pueda gestionar de manera eficiente este tráfico.
+**- Implantació d'un servidor d'Àudio:** Hem instal·lat un servidor d'àudio que ens permet gestionar transmissions en temps real per als nostres clients i usuaris. La infraestructura ha de ser capaç de suportar el volum de trànsit generat per aquesta mena de servei, sense comprometre la qualitat del contingut. A més, hem realitzat diverses comprovacions per a assegurar-nos que la nostra xarxa pugui gestionar de manera eficient aquest trànsit.
 
 
-**- Implantación de un servidor de Streaming Video:** Otro de los servicios es el streaming de video. Hemos solicitado la implementación de un servidor que permita una distribución fluida y de calidad de nuestro contenido audiovisual. Al mismo tiempo, hemos hecho diversas pruebas para evitar saturaciones en la red y garantizar una experiencia de usuario óptima, maximizando el uso responsable de los recursos disponibles.
+**- Implantació d'un servidor de Streaming Vídeo:** Un altre dels serveis és el streaming de vídeo. Hem sol·licitat la implementació d'un servidor que permeti una distribució fluida i de qualitat del nostre contingut audiovisual. Al mateix temps, hem fet diverses proves per a evitar saturacions en la xarxa i garantir una experiència d'usuari òptima, maximitzant l'ús responsable dels recursos disponibles.
 
 
-**- Comprobaciones de Ancho de banda:** Las comprobaciones de ancho de banda serán una prioridad para asegurarnos de que el sistema diseñado pueda gestionar adecuadamente los flujos simultáneos de audio y video sin pérdidas de calidad ni colapsos en la red. Queremos una solución que optimice el uso de la infraestructura existente y minimice el impacto ambiental de los servicios que ofrecemos.
+**- Comprovacions d'Amplada de banda:** Les comprovacions d'amplada de banda seran una prioritat per a assegurar-nos que el sistema dissenyat pugui gestionar adequadament els fluxos simultanis d'àudio i vídeo sense pèrdues de qualitat ni col·lapses en la xarxa. Volem una solució que optimitzi l'ús de la infraestructura existent i minimitzi l'impacte ambiental dels serveis que oferim.
 
 
 ---
@@ -91,24 +91,25 @@ En este apartado hemos diseñado una propuesta completa de Centro de Procesamien
 # 🗄️ Ejercicio 3  
 ## 🧾 Disseny i implementació d'una Base de dades
 
-En esta fase del proyecto se diseñó y creó una base de datos enfocada en la gestión de clientes, cumpliendo con los requisitos definidos.
+En aquesta fase del projecte es va dissenyar i va crear una base de dades enfocada en la gestió de clients, complint amb els requisits definits.
 
-### 🧩 Modelo Entidad-Relación (ER)
+### 🧩 Model Entitat-Relació (ER)
 
-- **Entidades**: Empleados, Niveles de Grupo, Departamentos
-- Se definieron claves primarias, atributos y relaciones.
+- **Entitats**: Empleats, Nivells de Grup, Departaments
+- Es van definir claus primàries, atributs i relacions.
 
-### 🔄 Transformación a Modelo Relacional
+### 🔄 Transformació a Model Relacional
 
-- Tablas, claves primarias y foráneas, tipos de datos adecuados.
-- Base para implementación en MySQL.
+- Taules, claus primàries i foranes, tipus de dades adequades.
+- Base per a implementació en MySQL.
 
-## 🛠️ Implementación en MySQL
+  
+## 🛠️ Implementació en MySQL
 
-Instalamos **MySQL Server** en una máquina con Ubuntu 24.04 e iniciamos el proceso de creación de la base de datos. Seguidamente, se crearon en las diferentes tablas y se insertaron los datos en ellas.
+Instal·lem **MySQL Server** en una màquina amb Ubuntu 24.04 i iniciem el procés de creació de la base de dades. Seguidament, es van crear en les diferents taules i es van inserir les dades en elles.
 
-También, se crearon distintos usuarios y roles con ciertas restricciones. Algunos podian insertar nuevos datos en las tablas, alguno solo podia consultarlas, entre otros casos...  
 
+També, es van crear diferents **usuaris i rols** amb unes certes restriccions. Alguns podien *inserir noves dades* en les taules, algun només podia *consultar-les*, entre altres casos...
 
 ---
 <!-- Ejercicio 4 -->
@@ -116,22 +117,22 @@ También, se crearon distintos usuarios y roles con ciertas restricciones. Algun
 ## 🍃 Sostenibilitat
 
 
-Siguiendo los ODS y valores del Institut Tecnològic de Barcelona, se han implementado las siguientes medidas:
+Seguint els ODS i valors del Institut Tecnològic de Barcelona, s'han implementat les següents mesures:
 
-### ✅ Acciones sostenibles implementadas
+### ✅ Accions sostenibles implementades
 
-- Proveedores cloud con energía renovable.
-- Virtualización para reducir máquinas.
-- Monitorización del consumo.
-- Regiones cloud con baja huella de carbono.
+- Proveïdors cloud amb energia renovable.
+- Virtualització per a reduir màquines.
+- Monitoratge del consum.
+- Regions cloud amb baixa petjada de carboni.
+- 
+### 📉 Estimació d'impacte ambiental
 
-### 📉 Estimación de impacto ambiental
+- **Consum anual estimat**: ~2.400 kWh
+- **Emissions CO₂**: ~960 kg CO₂/any (reduïble)
 
-- **Consumo anual estimado**: ~2.400 kWh
-- **Emisiones CO₂**: ~960 kg CO₂/año (reducible)
+### ➕ Altres Mesures adicionals
 
-### ➕ Medidas adicionales
-
-- Apagado automático fuera de horario.
-- Instancias eficientes energéticamente.
-- Autoscaling y buenas prácticas TIC sostenibles.
+- Apagada automàtica fora d'horari.
+- Instàncies eficients energèticament.
+- Autoscaling i bones pràctiques TIC sostenibles.
