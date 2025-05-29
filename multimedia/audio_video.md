@@ -88,7 +88,7 @@ gst-launch-1.0 ...
 
 ![mp4](reproducirmp4.png)
 
-![mp4](reproduccinmp4.png)
+![mp4](reproduccionmp4.png)
 
 🎼 Prueba con archivos `.mp3` y `.mp4` para asegurarte de que la salida es funcional.
 
