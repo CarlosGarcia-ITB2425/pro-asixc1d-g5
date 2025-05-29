@@ -2,20 +2,20 @@
 # 🚀 Pro-ASIXc1D-G5  
 **Projecte Transversal ASIXc 2024-2025**
 
-Bienvenido al manual de Documentación del Grupo 5  
+Benvingut al manual de Documentació del Grup 5
 
 ---
 
 ## 📚 Índice
-1. [🧠 Propuesta de CPD](#️-ejercicio-1)  
-2. [🎧 Implantación de los servicios de Audio y Video](#️-ejercicio-2)  
+1. [🧠 Proposta de CPD](#️-ejercicio-1)  
+2. [🎧 Implantació dels serveis d'Àudio i Vídeo](#️-ejercicio-2)  
 3. [🗄️ Diseño e implementación de una Base de Datos](#️-ejercicio-3)  
 4. [🍃 Sostenibilidad](#-ejercicio-4)
 
 ---
 <!-- Ejercicio 1 -->
 # 🏗️ Ejercicio 1  
-## 🧠 Propuesta de CPD
+## 🧠 Proposta de CPD
 
 En este apartado hemos diseñado una propuesta completa de Centro de Procesamiento de Datos (CPD), tanto físico como en la nube, cumpliendo con criterios de seguridad, eficiencia, sostenibilidad y escalabilidad que se piden en el proyecto.
 
@@ -75,7 +75,7 @@ En este apartado hemos diseñado una propuesta completa de Centro de Procesamien
 ---
 <!-- Ejercicio 2 -->
 # 📽️ Ejercicio 2  
-## 🎙️ Implantación de los servicios de Audio y Video
+## 🎙️ Implantació dels serveis d'Àudio i Vídeo
 
 **- Implantación de un servidor de Audio:** Hemos instalado un servidor de audio que nos permite gestionar transmisiones en tiempo real para nuestros clientes y usuarios. La infraestructura debe ser capaz de soportar el volumen de tráfico generado por este tipo de servicio, sin comprometer la calidad del contenido. Además, hemos realizado diversas comprobaciones para asegurarnos de que nuestra red pueda gestionar de manera eficiente este tráfico.
 
@@ -89,7 +89,7 @@ En este apartado hemos diseñado una propuesta completa de Centro de Procesamien
 ---
 <!-- Ejercicio 3 -->
 # 🗄️ Ejercicio 3  
-## 🧾 Resumen del Proyecto: Base de Datos para Gestión de Clientes
+## 🧾 Disseny i implementació d'una Base de dades
 
 En esta fase del proyecto se diseñó y creó una base de datos enfocada en la gestión de clientes, cumpliendo con los requisitos definidos.
 
@@ -113,7 +113,7 @@ También, se crearon distintos usuarios y roles con ciertas restricciones. Algun
 ---
 <!-- Ejercicio 4 -->
 # 🌿 Ejercicio 4
-## 🍃 Sostenibilidad
+## 🍃 Sostenibilitat
 
 
 Siguiendo los ODS y valores del Institut Tecnològic de Barcelona, se han implementado las siguientes medidas:
