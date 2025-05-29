@@ -9,8 +9,8 @@ Benvingut al manual de Documentació del Grup 5
 ## 📚 Índice
 1. [🧠 Proposta de CPD](#️-ejercicio-1)  
 2. [🎧 Implantació dels serveis d'Àudio i Vídeo](#️-ejercicio-2)  
-3. [🗄️ Diseño e implementación de una Base de Datos](#️-ejercicio-3)  
-4. [🍃 Sostenibilidad](#-ejercicio-4)
+3. [🗄️ Disseny i implementació d'una Base de dades](#️-ejercicio-3)  
+4. [🍃 Sostenibilitat](#-ejercicio-4)
 
 ---
 <!-- Ejercicio 1 -->
