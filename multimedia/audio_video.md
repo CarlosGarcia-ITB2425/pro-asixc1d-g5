@@ -34,32 +34,22 @@ sudo apt install darkice
 ## 4️⃣ Configurar Darkice  
 ![Darkice conf](confdarkice.png)
 
-📝 Editar el archivo de configuración:
+
 
 ```bash
 sudo nano /etc/darkice.cfg
 ```
 
-🔧 Asegúrate de configurar correctamente:  
-- Fuente de audio  
-- Servidor Icecast  
-- Códec y bitrate
 
 ---
 
 ## 5️⃣ Configurar Icecast  
 ![Icecast conf](conficecast.png)
 
-📝 Edita:
 
 ```bash
 sudo nano /etc/icecast2/icecast.xml
 ```
-
-⚙️ Configura:  
-- Puerto de escucha  
-- Mountpoint  
-- Credenciales de acceso
 
 ---
 
@@ -70,7 +60,7 @@ sudo nano /etc/icecast2/icecast.xml
 gst-launch-1.0 ...
 ```
 
-🎧 Asegúrate de que el audio esté siendo capturado correctamente.
+
 
 ---
 
@@ -79,7 +69,7 @@ gst-launch-1.0 ...
 
 ![Prova2](Proves2.png)
 
-🔍 Verifica que el flujo se transmite correctamente al servidor.
+
 
 ---
 
