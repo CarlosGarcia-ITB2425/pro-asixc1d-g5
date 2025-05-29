@@ -99,25 +99,3 @@ gst-launch-1.0 ...
 ```bash
 sudo darkice
 ```
-
-🚀 Inicia la transmisión.
-
----
-
-## 1️⃣1️⃣ Transmisión continua  
-![mp42](.png)
-
-🔁 Puedes automatizar la retransmisión o configurarla en modo bucle.
-
----
-
-## 1️⃣2️⃣ Ver en el navegador  
-`16_interfaz_web_icecast.png`  
-
-🌐 Abre en tu navegador:
-
-```arduino
-http://localhost:8000
-```
-
-👁️ Desde aquí puedes monitorear tu transmisión en vivo.
