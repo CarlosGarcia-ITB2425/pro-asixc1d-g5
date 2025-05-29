@@ -4,7 +4,7 @@
 ---
 
 ## 1️⃣ Actualizar el sistema  
-📷 ![sudo apt update](multimedia/sudoaptupdate.png)
+📷 ![sudo apt update](sudo_apt_update.png)
 
 
 ```bash
