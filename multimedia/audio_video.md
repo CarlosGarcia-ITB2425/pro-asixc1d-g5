@@ -84,11 +84,11 @@ gst-launch-1.0 ...
 ---
 
 ## 8️⃣ Reproducir archivos de prueba  
-![mp3](reproduccionmp3.png)
+![mp3](reproducciomp3.png)
 
-![mp41](reproducirmp4.png)
+![mp4](reproducirmp4.png)
 
-![mp42](reproduccionmp4.png)
+![mp4](reproduccinmp4.png)
 
 🎼 Prueba con archivos `.mp3` y `.mp4` para asegurarte de que la salida es funcional.
 
