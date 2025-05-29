@@ -33,6 +33,7 @@ sudo apt install darkice
 
 ## 4️⃣ Configurar permisos (si es necesario)  
 ![Darkice conf](confdarkice.png)
+
 🔐 Asegúrarse de que los permisos para la tarjeta de sonido o archivos del sistema estén correctamente configurados.
 
 ---
