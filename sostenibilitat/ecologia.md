@@ -91,3 +91,18 @@ Alineats amb els valors de l'**Institut Tecnològic de Barcelona** i els **Objec
 | Hores de funcionament/setmana | 40 h                                   |
 | Setmanes l’any                | 36                                     |
 | Tràfic anual estimat          | 1 TB                                   |
+
+---
+
+### 🧾 4.5 Pressupost global
+
+Categoria	Cost (€)
+Infraestructura física optimitzada	52.100€
+Núvol AWS (anual)	3.420€
+Infraestructura elèctrica	3.700€
+Sostenibilitat i eficiència	2.300€
+Seguretat i monitoratge	4.500€
+Prevenció de riscos laborals	800€
+
+TOTAL INICIAL (amb sostenibilitat): ≈ 66.820€
+Estalvi aproximat de 8.000 € respecte la proposta inicial + Reducció del 20% en emissions.
