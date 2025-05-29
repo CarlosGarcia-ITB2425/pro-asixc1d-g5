@@ -23,7 +23,7 @@ sudo apt install alsa-utils
 ---
 
 ## 3️⃣ Instalar Darkice  
-![Alsa-utils](installdarkice.png)
+![Darkice](installdarkice.png)
 
 ```bash
 sudo apt install darkice
@@ -32,7 +32,7 @@ sudo apt install darkice
 ---
 
 ## 4️⃣ Configurar permisos (si es necesario)  
-`04_configurar_permisos.png`  
+![Darkice conf](confdarkice.png)
 🔐 Asegúrarse de que los permisos para la tarjeta de sonido o archivos del sistema estén correctamente configurados.
 
 ---
