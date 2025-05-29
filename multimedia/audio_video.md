@@ -83,7 +83,14 @@ gst-launch-1.0 ...
 
 ---
 
-## 8️⃣ Reproducir archivos de prueba  
+## 8️⃣ Ejecutar Darkice  
+![darkice](darkice.png)
+
+```bash
+sudo darkice
+```
+
+## 9️⃣ Reproducir archivos de prueba  
 ![mp3](reproducciomp3.png)
 
 ![mp4](reproducirmp4.png)
@@ -93,9 +100,3 @@ gst-launch-1.0 ...
 ---
 
 
-## 9️⃣ Ejecutar Darkice  
-![darkice](darkice.png)
-
-```bash
-sudo darkice
-```
