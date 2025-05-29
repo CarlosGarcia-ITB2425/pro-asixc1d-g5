@@ -90,13 +90,11 @@ gst-launch-1.0 ...
 
 ![mp4](Reproducciomp4.png)
 
-🎼 Prueba con archivos `.mp3` y `.mp4` para asegurarte de que la salida es funcional.
-
 ---
 
 
 ## 9️⃣ Ejecutar Darkice  
-![mp42](darkice.png)
+![darkice](darkice.png)
 
 ```bash
 sudo darkice
