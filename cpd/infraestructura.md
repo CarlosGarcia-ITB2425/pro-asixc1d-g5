@@ -162,5 +162,3 @@ El CPD s’ubica a una zona interior de l’edifici, sense finestres ni façana 
 
 ---
 
-📌 *Autor: Grup 5 ASIXc | Curs 2024–2025*  
-📁 *Document publicat al GitHub oficial del projecte*
