@@ -31,7 +31,7 @@ sudo apt install darkice
 
 ---
 
-## 5️⃣ Configurar Darkice  
+## 4️⃣ Configurar Darkice  
 ![Darkice conf](confdarkice.png)
 
 📝 Editar el archivo de configuración:
@@ -47,8 +47,9 @@ sudo nano /etc/darkice.cfg
 
 ---
 
-## 6️⃣ Configurar Icecast  
-`06_configurar_icecast.png`  
+## 5️⃣ Configurar Icecast  
+![Icecast conf](conficecast.png)
+
 📝 Edita:
 
 ```bash
@@ -62,8 +63,8 @@ sudo nano /etc/icecast2/icecast.xml
 
 ---
 
-## 7️⃣ Probar entrada de audio con GStreamer  
-`07_probar_audio_gstreamer.png`
+## 6️⃣ Probar entrada de audio con GStreamer  
+![GStreamer](gstlaunch.png)
 
 ```bash
 gst-launch-1.0 ...
@@ -73,31 +74,26 @@ gst-launch-1.0 ...
 
 ---
 
-## 8️⃣ Pruebas de transmisión  
-`08_prueba_transmision_1.png`  
-`09_prueba_transmision_2.png`
+## 7️⃣ Pruebas de transmisión  
+![Prova1](Proves.png)
+![Prova2](Proves2.png)
 
 🔍 Verifica que el flujo se transmite correctamente al servidor.
 
 ---
 
-## 9️⃣ Reproducir archivos de prueba  
-`10_reproducir_mp3.png`  
-`11_reproducir_mp4_1.png`  
-`12_reproducir_mp4_2.png`
+## 8️⃣ Reproducir archivos de prueba  
+![mp3](reproduccionmp3.png)
+![mp41](reproducirmp4.png)
+![mp42](reproduccionmp4.png)
 
 🎼 Prueba con archivos `.mp3` y `.mp4` para asegurarte de que la salida es funcional.
 
 ---
 
-## 🔟 Configurar video  
-`13_configurar_video.png`  
-📹 Elige la fuente de video adecuada (dispositivo, cámara, etc.).
 
----
-
-## 1️⃣1️⃣ Ejecutar Darkice  
-`14_darkice_ejecucion.png`
+## 9️⃣ Ejecutar Darkice  
+![mp42](darkice.png)
 
 ```bash
 sudo darkice
@@ -107,14 +103,14 @@ sudo darkice
 
 ---
 
-## 1️⃣2️⃣ Transmisión continua  
-`15_transmision_bucle.png`
+## 1️⃣1️⃣ Transmisión continua  
+![mp42](.png)
 
 🔁 Puedes automatizar la retransmisión o configurarla en modo bucle.
 
 ---
 
-## 1️⃣3️⃣ Ver en el navegador  
+## 1️⃣2️⃣ Ver en el navegador  
 `16_interfaz_web_icecast.png`  
 
 🌐 Abre en tu navegador:
