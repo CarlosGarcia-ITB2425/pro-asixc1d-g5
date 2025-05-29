@@ -97,6 +97,7 @@ Alineats amb els valors de l'**Institut Tecnològic de Barcelona** i els **Objec
 ### 🧾 4.5 Pressupost global
 
 Categoria	Cost (€)
+
 Infraestructura física optimitzada	52.100€
 
 Núvol AWS (anual)	3.420€
