@@ -98,10 +98,15 @@ Alineats amb els valors de l'**Institut Tecnològic de Barcelona** i els **Objec
 
 Categoria	Cost (€)
 Infraestructura física optimitzada	52.100€
+
 Núvol AWS (anual)	3.420€
+
 Infraestructura elèctrica	3.700€
+
 Sostenibilitat i eficiència	2.300€
+
 Seguretat i monitoratge	4.500€
+
 Prevenció de riscos laborals	800€
 
 TOTAL INICIAL (amb sostenibilitat): ≈ 66.820€
