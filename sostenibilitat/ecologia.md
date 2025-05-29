@@ -45,7 +45,7 @@ Alineats amb els valors de l'**Institut Tecnològic de Barcelona** i els **Objec
 
 ### 💪 4.3 Mesures de reducció i optimització
 
-#### Núcol:
+#### Núvol:
 
 * Triar regions verdes: Irlanda, Frankfurt, Oregon.
 * Utilitzar instàncies eficients (AWS Graviton, GCP E2).
@@ -71,7 +71,7 @@ Alineats amb els valors de l'**Institut Tecnològic de Barcelona** i els **Objec
 
 | **Concepte**     | **Fòrmula**                    | **Resultat**   |
 | ---------------- | ------------------------------ | -------------- |
-| Consum núcol     | 4 màquines × 50 kWh × 12 mesos | 2.400 kWh      |
+| Consum núvol     | 4 màquines × 50 kWh × 12 mesos | 2.400 kWh      |
 | Tràfic (1 TB)    | 1 × 5 kWh                      | 5 kWh          |
 | Emissions de CO₂ | 2.405 × 0,4 kg CO₂/kWh         | 962 kg CO₂ eq. |
 
