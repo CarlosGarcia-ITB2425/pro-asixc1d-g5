@@ -13,7 +13,7 @@ sudo apt update
 
 ---
 
-## 2️⃣ Instalar utilidades ALSA  
+## 2️⃣ Instalar Alsa-utils
 ![Alsa-utils](installalsa-utils.png)
 
 ```bash
@@ -23,7 +23,7 @@ sudo apt install alsa-utils
 ---
 
 ## 3️⃣ Instalar Darkice  
-`03_instalar_darkice.png`
+![Alsa-utils](installdarkice.png)
 
 ```bash
 sudo apt install darkice
